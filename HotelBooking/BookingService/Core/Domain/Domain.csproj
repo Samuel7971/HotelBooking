@@ -3,7 +3,13 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
 
 </Project>
